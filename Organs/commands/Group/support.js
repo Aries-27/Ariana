@@ -20,13 +20,13 @@ const eternitylogogg = "https://i.ibb.co/Q6jyqNv/20230127-171350.jpg"
 const lemo = `
 *━『 Support Group Links 』━*
 
-*1) [ PIKACHU SUPPORT GROUP ] :*
+*1) [ RONEN-BOTS SUPPORT GROUP ] :*
 https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
 
-*2) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ₵𝖆𝖘𝖎𝖓ø ] 🎰 :*
-https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
+*2) [ PIKACHU-BOT NSFW GROUP ] 🔞 :*
+https://chat.whatsapp.com/HBwsw3C5CqB2LhLr29Z6Lk
 
-*3) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ N̸s̸f̸w̸ ] :*
+*3) [ MY INSTAGRAM ] :*
 https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
