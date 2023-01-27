@@ -1,7 +1,7 @@
 module.exports = {
     name: "group",
     alias: ["grp"],
-    desc: "Ope/close group",
+    desc: "Open/close group",
     cool:3,
     react:"✅",
    
@@ -25,7 +25,7 @@ module.exports = {
 ]
 const listMessage = {
   text: "Choose the required setting",
-  footer: "ETERNITY",
+  footer: "RONEN-BOTS",
   title: "",
   buttonText: "settings",
   sections
