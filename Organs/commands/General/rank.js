@@ -90,10 +90,10 @@ if (levelRole <= 2) {
  var role = 'Prime Lord'
 }else if (levelRole <= 78) {
  var role = 'The Prime Emperor'
-}else if (levelRole <= 80) {
- var role = 'The Original'
 }else if (levelRole <= 100) {
- var role = ' High Level Bitch'
+ var role = 'High Level Bitch'
+}else if (levelRole <= 1000) {
+ var role = 'Demon lord (Mod)'
 }
 		let disc = m.sender.substring(3, 7)
 			let textr = "";
