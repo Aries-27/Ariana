@@ -63,9 +63,9 @@ module.exports={
         } else if (levelRole <= 44) {
             var role = 'Legend I'
         } else if (levelRole <= 46) {
-            var role = 'Mythic'
-        } else if (levelRole <= 50) {
-            var role = 'Mythic Glory'
+            var role = 'God'
+        } else if (levelRole <= 1000) {
+            var role = 'Demon Lord (Only for Mods)'
         }
 		let bio = ''
 try {
@@ -174,9 +174,9 @@ const userw = await Levels.fetch(users, "bot");
         } else if (levelRole <= 44) {
             var role = 'Legend I'
         } else if (levelRole <= 46) {
-            var role = 'Mythic'
-        } else if (levelRole <= 50) {
-            var role = 'Mythic Glory'
+            var role = 'God'
+        } else if (levelRole <= 1000) {
+            var role = 'Demon Lord (Only for Mods)'
         }
 		let bio = ''
 try {
