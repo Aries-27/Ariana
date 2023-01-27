@@ -26,8 +26,8 @@ https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
 *2) [ PIKACHU-BOT NSFW GROUP ] 🔞 :*
 https://chat.whatsapp.com/HBwsw3C5CqB2LhLr29Z6Lk
 
-*3) [ MY INSTAGRAM ] :*
-https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
+*3) [ MY INSTAGRAM ] 📱 :*
+https://instagram.com/lollenn_?igshid=YmMyMTA2M2Y=
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
   await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  
