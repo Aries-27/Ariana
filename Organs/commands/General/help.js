@@ -68,7 +68,7 @@ let cm=commands.keys()
                 .map((cmd) => cmd.name).join(", ")}\`\`\`\n\n`
         }
         txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n`; 
-    const eternity = await wall.getAnimeWall5("Nezuko")
+    const eternity = await wall.getAnimeWall5("Pikachu")
     const eternitylogo = eternity[Math.floor(Math.random() * eternity.length)]
     const Button = [
         {buttonId: `${prefix}nezuko`, buttonText: {displayText: '🌟 Script',}, type: 2},
