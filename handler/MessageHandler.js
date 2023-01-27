@@ -114,7 +114,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       let buttons = [
         {
           buttonId: `${prefix}help`,
-          buttonText: { displayText: "*📝HELP*" },
+          buttonText: { displayText: "📝HELP" },
           type: 1,
         },
       ];
@@ -122,7 +122,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       let buttonMessage = {
         image: { url: rae },
         caption: `${txtt}`,
-        footer: `*©Eternity-Team*`,
+        footer: `*©Ronen-Bots*`,
         buttons: buttons,
         headerType: 4,
       };
@@ -168,7 +168,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
     if (isGroup && mods.includes(`${m.from}`)) {
       if (body.includes("://chat.whatsapp.com/")) {
         if (iscreator) {
-          return m.reply("*Ohhh you are mod*");
+          return m.reply("*Ohhh you are mod(Respect 💖)*");
         } else if (isAdmin) {
           return m.reply("*Ohhh you are admin*");
         } else {
