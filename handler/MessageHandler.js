@@ -109,12 +109,12 @@ module.exports = async (client, m, commands, chatUpdate) => {
         : [];
     const flags = args.filter((arg) => arg.startsWith("--"));
     if (body.startsWith(prefix) && !icmd) {
-      var rae = `https://i.ibb.co/c33ZHCx/wallpaperflare-com-wallpaper.jpg`;
+      var rae = `https://i.ibb.co/x78n9mC/20230127-141609.jpg`;
       let txtt = `*${prefix}${cmdName}* is an ⛔ invalid command`;
       let buttons = [
         {
           buttonId: `${prefix}help`,
-          buttonText: { displayText: "⚙️ℍ𝕖𝕝𝕡" },
+          buttonText: { displayText: "*📝HELP*" },
           type: 1,
         },
       ];
@@ -201,7 +201,7 @@ module.exports = async (client, m, commands, chatUpdate) => {
       ];
       let buth = {
         text: `*Command Info*\n\n${data.join("\n")}`,
-        footer: "Eternity",
+        footer: "Ronen-Bots",
         buttons: buttonss,
         headerType: 1,
       };
