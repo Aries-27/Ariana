@@ -25,7 +25,23 @@ let yup = [
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
 
-var rr = `✨ _*PIKACHU*_  ✨\n\n🍀 *Description:* ${nezuko.data.description}\n\n 📎 *Repo Link:* ${nezuko.data.html_url} \n\n 🌠 *Total Star:* ${nezuko.data.stargazers_count}\n\n 💕 *Total Forks:* ${nezuko.data.forks} \n\n 💁🏻‍♂️ *Tutorial:* https://www.youtube.com/watch?v=KqgyScOlvV8 \n`
+var rr = `✨ _*PIKACHU*_  ✨\n\n🍀 *Description:* Hii! I'm Pikachu a whatsapp bot, Developed and Reverse engineered by Ronen to make your whatsapp more enjoyable and to do everything possible on whatsapp.
+
+💜 *Our official support group* : https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+🐨 *My YouTube* : https://youtube.com/c/RonenAMVs
+📱 *My Instagram* : https://instagram.com/lollenn_?igshid=YmMyMTA2M2Y=
+🔖 *Website* : Coming soon...
+
+
+*About Ronen💜*
+
+*🎗️Name* : Ronen Singha
+*🧧Age* : Immortal heheh✨
+*♦️Country* : India🇮🇳
+*🎯Gender* : Male👨‍🦱
+
+*❣️Relationship status* : Single
+*🎏Hobbies* : Coding, Video Editing, Workout 💪, Love Watching Animes and Kdramas\n`
 await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
     }
 }
