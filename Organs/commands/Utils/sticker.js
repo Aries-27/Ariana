@@ -10,8 +10,8 @@ module.exports = {
        if(!quoted) return await client.sendMessage(m.from,{text:"Reply/tag a image/video"})
        flags.forEach((flag) => (text = text.replace(flag, '')))
  
-       pack = 'ETERNITY'
-       author = ''
+       pack = 'PIKACHH'
+       author = 'BY RONEN BOTS'
         
        
            
