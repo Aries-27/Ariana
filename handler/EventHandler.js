@@ -31,7 +31,7 @@ ${metadata.desc}`;
         });
       } else if (m.action == "remove" && wlc.includes(`${m.id}`)) {
         client.sendMessage(m.id, {
-          text: `@${num.split("@")[0]} bye bye , we will not miss you`,
+          text: `@${num.split("@")[0]} bye bye , stay happy`,
           mentions: [num],
         });
       }
