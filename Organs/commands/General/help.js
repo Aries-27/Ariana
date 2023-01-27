@@ -71,7 +71,7 @@ let cm=commands.keys()
     const eternity = await wall.getAnimeWall5("Pikachu")
     const eternitylogo = eternity[Math.floor(Math.random() * eternity.length)]
     const Button = [
-        {buttonId: `${prefix}nezuko`, buttonText: {displayText: '🌟 Script',}, type: 2},
+        {buttonId: `${prefix}pikachu`, buttonText: {displayText: '🌟 Pikachu',}, type: 2},
         {buttonId: `${prefix}support`, buttonText: {displayText: '🎐 Support'}, type: 1},
     ]
     let hbutto = {
