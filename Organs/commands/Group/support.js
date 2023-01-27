@@ -20,8 +20,8 @@ const eternitylogogg = "https://i.ibb.co/t3Jd1wK/Eternity-6.png"
 const lemo = `
 *━『 Support Group Links 』━*
 
-*1) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ] :*
-https://chat.whatsapp.com/JCCZPbPUbM1536n62zSFZi
+*1) [ PIKACHU SUPPORT GROUP ] :*
+https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
 
 *2) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ₵𝖆𝖘𝖎𝖓ø ] 🎰 :*
 https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
