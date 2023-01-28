@@ -3,7 +3,7 @@ const axios = require('axios')
 module.exports = {
     name: "truth",
     alias: ["t"],
-    usage: `${prefa}repo`,
+    usage: `${prefa}truth`,
     desc: "Will send you a truth",
     react: "✅",
     
