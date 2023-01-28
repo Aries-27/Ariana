@@ -15,17 +15,7 @@ module.exports = {
         args
     }) => {
 let yup = [
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
-            'https://i.ibb.co/x78n9mC/20230127-141609.jpg'
-          ]
-let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
-let rae = yup[Math.floor(Math.random() * yup.length)]
-
-var rr = "Have you ever liked anyone? How long?",
+            "Have you ever liked anyone? How long?",
                  "If you can or if you want, which gc/outside gc would you make friends with? (maybe different/same type)",
                  "apa ketakutan terbesar kamu?",
                  "Have you ever liked someone and felt that person likes you too?",
@@ -113,7 +103,12 @@ var rr = "Have you ever liked anyone? How long?",
                  "What is the biggest lie you ever told your parents",
                  "Who is your celebrity crush",
                  "Whats the strangest dream you have ever had",
-                 "do you play pubg, if you then send ur id number"
+                 "do you play pubg, if you then send ur id number",
+    ]
+let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
+let rae = yup[Math.floor(Math.random() * yup.length)]
+
+var rr = "Test"
 await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
     }
 }
