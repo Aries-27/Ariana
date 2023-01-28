@@ -26,7 +26,7 @@ module.exports = {
         url: wife,
       },
       caption: `*✈ Here you Go*`,
-      footer: `*©Eternity-Team*`,
+      footer: `*©Ronen-Bots*`,
       buttons: buttons,
       headerType: 4,
     };
