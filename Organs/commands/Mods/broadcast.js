@@ -22,13 +22,12 @@ let txt = `🔰</ _*Pikachu Broadcast*_ >🔰\n\n🍀 *Author:* ${pushName}\n\n�
 if(/image/.test(mime)) {
 let media = await quoted.download()
 
-await client.sendMessage(m,{ image:media,  caption:txt, mentions:participants.map(a => a.id) })
+await client.sendMessage(i, { image:media,  caption: txt,mentions:participants.map(a => a.id) })
 }
 if(/video/.test(mime)){
 let media = await quoted.download()
-await client.sendMessage(m,{ video:media,  caption:txt, mentions:participants.map(a => a.id) })
+await client.sendMessage(i, { video:media,  caption: txt, mentions:participants.map(a => a.id) })
 }
             }
         m.reply(`Successfuly Broadcasted in ${anu.length} Groups`)
     }
-}
