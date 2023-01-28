@@ -58,7 +58,9 @@ let cm=commands.keys()
         var emo=["📖","🍁","🍀","🌊","🎵","🔞","🎟","♨️","🉐",]
         } 
         let txt = `*Yo! (｡♡‿♡｡)* ${pushName} I am *Pikachu*.
-                       
+         
+	 📝 *If you want to add this bot in your group then fill up this form - https://surveyheart.com/form/63d40d194de54153e33a00e0*
+	 
 🧧 *Prefix :* [ ${prefix} ]
                        
 📝 Here's the *Commands* listed below :\n\n`
