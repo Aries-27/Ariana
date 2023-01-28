@@ -30,7 +30,7 @@ var rr = `✨ _*PIKACHU*_  ✨\n\n🍀 *Description:* Hii! I'm Pikachu a whatsap
 💜 *Our official support group* : https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
 🐨 *My YouTube* : https://youtube.com/c/RonenAMVs
 📱 *My Instagram* : https://instagram.com/lollenn_?igshid=YmMyMTA2M2Y=
-🔖 *Website* : Coming soon...
+🔖 *Website* : https://surveyheart.com/form/63d40d194de54153e33a00e0
 
 
 *About Ronen💜*
@@ -40,7 +40,7 @@ var rr = `✨ _*PIKACHU*_  ✨\n\n🍀 *Description:* Hii! I'm Pikachu a whatsap
 *♦️Country* : India🇮🇳
 *🎯Gender* : Male👨‍🦱
 
-*❣️Relationship status* : Single
+*🚩Proud to be a Manipuri*
 *🎏Hobbies* : Coding, Video Editing, Workout 💪, Love Watching Animes and Kdramas\n`
 await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
     }
