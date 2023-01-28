@@ -27,10 +27,10 @@ let rae = yup[Math.floor(Math.random() * yup.length)]
 
 var rr = `✨ _*PIKACHU*_  ✨\n\n🍀 *Description:* Hii! I'm Pikachu a whatsapp bot, Developed and Reverse engineered by Ronen to make your whatsapp more enjoyable and to do everything possible on whatsapp.
 
-💜 *Our official support group* : https://chat.whatsapp.com/Hooxu1kZEoFKoNpdFLqXMO
+💜 *Our official support group* : https://9qr.de/dMd82x
 🐨 *My YouTube* : https://youtube.com/c/RonenAMVs
 📱 *My Instagram* : https://instagram.com/lollenn_?igshid=YmMyMTA2M2Y=
-🔖 *Website* : https://surveyheart.com/form/63d40d194de54153e33a00e0
+🔖 *Website* : https://9qr.de/XD2HrB
 
 
 *About Ronen💜*
