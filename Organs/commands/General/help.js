@@ -59,7 +59,7 @@ let cm=commands.keys()
         } 
         let txt = `*Yo! (｡♡‿♡｡)* ${pushName} I am *Pikachu*.
          
-	 📝 *If you want to add this bot in your group then fill up this form - https://surveyheart.com/form/63d40d194de54153e33a00e0*
+	 📝 *If you want to add this bot in your group then fill up this form - https://9qr.de/XD2HrB*
 	 
 🧧 *Prefix :* [ ${prefix} ]
                        
