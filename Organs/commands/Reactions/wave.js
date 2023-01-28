@@ -4,12 +4,12 @@ require ('../../../settings')
 module.exports={
     name:"wave",
     alias:["waved"],
-    usage:`${prefa}bj`,
+    usage:`${prefa}wave`,
     desc:"Sends a gif of waving!",
     category:"Reactions",
     react:"👋",
 start:async(client,m,{command,nsfw,prefix,text})=>{
-  let assss = await axios.get ("https://api.waifu.pics/nsfw/blowjob")
+  let assss = await axios.get ("https://api.waifu.pics/sfw/wave")
     var bobuff = await fetchBuffer(assss.data.url)
     var bogif = await buffergif(bobuff)
     await client.sendMessage(m.from,{video:bogif, gifPlayback:true },{quoted:m}).catch(err => {
