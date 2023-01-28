@@ -23,7 +23,7 @@ let rae = yup[Math.floor(Math.random() * yup.length)]
 let rr = "Test",
 "test1",
     "test2",
-let rae = rr[Math.floor(Math.random() * rr.length)]
-await client.sendMessage(m.from,{image:{url:rae}, caption:rr},{quoted:m})
+let dae = rr[Math.floor(Math.random() * rr.length)]
+await client.sendMessage(m.from,{image:{url:rae}, caption:dae},{quoted:m})
     }
 }
