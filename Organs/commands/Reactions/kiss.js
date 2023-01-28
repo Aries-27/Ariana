@@ -10,7 +10,7 @@ module.exports={
     react:"😘",
 start:async(client,m,{command,nsfw,prefix,text})=>{
   let assss = await axios.get ("https://api.waifu.pics/sfw/kiss")
-  var lol = '*You kissed them*'
+  var lol = '*You kissed them😘*'
     var bobuff = await fetchBuffer(assss.data.url)
     var bogif = await buffergif(bobuff)
     await client.sendMessage(m.from,{video:bogif, caption:lol, gifPlayback:true },{quoted:m}).catch(err => {
