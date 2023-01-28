@@ -15,15 +15,14 @@ module.exports = {
         args
     }) => {
 let yup = [
-            "https://i.ibb.co/x78n9mC/20230127-141609.jpg",
+            "test1",
+   "test2",
+    "test3",
     ]
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let rae = yup[Math.floor(Math.random() * yup.length)]
 
-let rr = "Test",
-"test1",
-    "test2",
-let dae = rr[Math.floor(Math.random() * rr.length)]
-await client.sendMessage(m.from,{image:{url:rae}, caption:dae},{quoted:m})
+var rr = 'https://i.ibb.co/x78n9mC/20230127-141609.jpg',
+await client.sendMessage(m.from,{image:{url:rr}, caption:rae},{quoted:m})
     }
 }
