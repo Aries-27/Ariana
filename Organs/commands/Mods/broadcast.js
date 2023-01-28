@@ -31,3 +31,4 @@ await client.sendMessage(i, { video:media,  caption: txt, mentions:participants.
             }
         m.reply(`Successfuly Broadcasted in ${anu.length} Groups`)
     }
+}
