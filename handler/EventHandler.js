@@ -11,7 +11,7 @@ module.exports = async (client, m) => {
       try {
         ppuser = await client.profilePictureUrl(num, "image");
       } catch {
-        ppuser = "https://wallpapercave.com/wp/wp6960556.jpg";
+        ppuser = "https://i.ibb.co/x78n9mC/20230127-141609.jpg";
       }
 
       if (m.action == "add" && wlc.includes(`${m.id}`)) {
