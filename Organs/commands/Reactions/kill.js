@@ -9,7 +9,7 @@ module.exports={
     category:"Reactions",
     react:"⚔️",
 start:async(client,m,{command,nsfw,prefix,text})=>{
-  let assss = await axios.get ("https://api.waifu.pics/sfw/wave")
+  let assss = await axios.get ("https://api.waifu.pics/sfw/kill")
   var lol = '*You killed them⚔️*'
     var bobuff = await fetchBuffer(assss.data.url)
     var bogif = await buffergif(bobuff)
