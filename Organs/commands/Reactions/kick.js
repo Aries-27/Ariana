@@ -4,7 +4,7 @@ require ('../../../settings')
 module.exports={
     name:"kick",
     alias:["kicked"],
-    usage:`${prefa}wave`,
+    usage:`${prefa}kick`,
     desc:"Sends a gif of kicking!",
     category:"Reactions",
     react:"👍",
