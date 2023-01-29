@@ -7,7 +7,7 @@ module.exports = {
     desc: "Will send you a dare",
     react: "✅",
     
-    category: "Utils",
+    category: "Fun",
     start: async (client, m, {
         command,
         prefix,
