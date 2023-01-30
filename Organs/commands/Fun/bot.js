@@ -21,7 +21,7 @@ $rayyy.data.cnt[0]
 
     
    client.sendMessage(m.from,{text:reply},{quoted:m})
- catch (err) {
+ catch (err) 
     console.log(err)
     return m.reply (`*${q}* isn't a valid text`)
     }
