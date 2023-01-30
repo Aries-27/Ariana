@@ -13,7 +13,7 @@ module.exports={
 
 if (!q) return m.reply(`Please give me text.`)
 try {
-rayyy = await axios.get(`http://api.brainshop.ai/get?bid=164782&key=fF16Q2FtvgIWMCvH&uid=[uid]&msg=[!q}`)
+rayyy = await axios.get(`http://api.brainshop.ai/get?bid=164782&key=fF16Q2FtvgIWMCvH&uid=[uid]&msg=!q`)
 if (!rayyy) return m.reply(`❌ Error`)
 const reply = 
 
