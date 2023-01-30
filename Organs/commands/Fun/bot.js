@@ -17,7 +17,7 @@ rayyy = await axios.get(`http://api.brainshop.ai/get?bid=164782&key=fF16Q2FtvgIW
 if (!rayyy) return m.reply(`❌ Error`)
 const reply = `
 
-${rayyy.data.list[0].cnt
+${rayyy.data.cnt[0]
     `
    client.sendMessage(m.from,{text:reply},{quoted:m})
 } catch (err) {
