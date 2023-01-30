@@ -1,29 +1,29 @@
 const axios = require('axios')
+const fs=require("fs")
 require ('../../../settings')
 module.exports={
     name:"chat",
-    alias:["bot,b"],
-    cool: 20,
-    usage:`${prefa}chat [Any text or sentence]`,
-    desc:"Chat with bot.",
+    alias:["dictionary"],
+    usage:`${prefa}define [Your word]`,
+    desc:"Gives you the meaning of your word ",
     category:"Fun",
-    react:"✅",
+    react:"📖",
+    
+    start:async(client,m,{command,prefix,args})=>{
 
-    start:async(client,m,{command,prefix,text,args})=>{
-if (!text)  return m.reply(`Please provide me some text`)
-if (ggle == "none" || null)  return m.reply(`*❤️ Ask owner to give me an API key*`)
-await axios.get(`http://api.brainshop.ai/get?bid=164782&key=fF16Q2FtvgIWMCvH&uid=[uid]&msg=${text}`)
-.then((res) => {
-    if (res.status !== 200) return void m.reply(`🔍 Error: ${res.status}`);
-    let result = ``;
-    for (const item of res.data?.items) {
-        result += `${text}`;
+if (!q) return m.reply(`Please give me text.`)
+try {
+rayyy = await axios.get(`http://api.brainshop.ai/get?bid=164782&key=fF16Q2FtvgIWMCvH&uid=[uid]&msg=[!q}`)
+if (!rayyy) return m.reply(`❌ Error`)
+const reply = `
+
+${rayyy.data.list[0].definition
+    `
+   client.sendMessage(m.from,{text:reply},{quoted:m})
+} catch (err) {
+    console.log(err)
+    return m.reply (`*${q}* isn't a valid text`)
     }
-img = "https://i.ibb.co/26d2K4d/kindpng-209846.png"
- client.sendMessage(m.from,{image:{url:img},caption:result},{quoted:m})
-})
-.catch((err) => {
-  m.reply(`🔍 Error: ${err}`);
-});
-},
+  }
 }
+   
