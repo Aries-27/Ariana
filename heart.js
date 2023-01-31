@@ -33,7 +33,6 @@ Commands.prefix = prefa;
 const user = require("./models/user");
 const express = require("express");
 const axios = require("axios");
-const {ronen} = require("Assets/Ronen");
 //let sesi=process.argv[2]
 const session = `./tokens/test.json`;
 const { QuickDB } = require("quick.db");
