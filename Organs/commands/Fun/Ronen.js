@@ -14,7 +14,7 @@ module.exports = {
         text,
         args
     }) => {
-      let { ronen } = require('Assets/Ronen')
+      let { ronen } = require('nezuko/heart.js')
     
 let nezuko = await axios.get('https://api.github.com/repos/EternityBots/Nezuko')
 let r = Ronen[Math.floor(Math.random() * Ronen.length)]
