@@ -2,7 +2,7 @@
 require ('../../../settings')
 module.exports={
     name:"mods",
-    alias:["mod"],
+    alias:["mod,owner,creator"],
     usage:`${prefa}mods`,
     desc:"shows mods list",
     category:"General",
