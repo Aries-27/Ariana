@@ -7,7 +7,7 @@ module.exports = {
     react:"✅",
 	category: "Group",
 	start: async(client, m, { text, groupName,flags, args,command,isAdmin,participants,groupAdmin,pushName,iscreator}) => {
-		if(!isAdmin !iscreator) return client.sendMessage(m.from,{text:"This is admin only command"},{quoted:m})
+		if(!isAdmin) return client.sendMessage(m.from,{text:"This is admin only command"},{quoted:m})
         flags.forEach((flag) => (text = text.replace(flag, '')))
         const message = args ? args.join(' ') : m.quoted ? m.quoted.msg : ''
         let  menText = `${message !== '' ? `🧧 *Message:* ${message}\n\n` : ''}🍀 *Group:* ${
