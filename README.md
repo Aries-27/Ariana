@@ -5,7 +5,7 @@
 
 </p>
 <p align="center">
-<a href="https://github.com/pratyush4932"><img title="Author" src="https://img.shields.io/badge/Author-Pratyush-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Ronen6999"><img title="Author" src="https://img.shields.io/badge/Author-Pratyush-red.svg?style=for-the-badge&logo=github"></a>
 </p>
  <a href="https://github.com/EternityBots/Nezuko/blob/main/LICENSE">
   
