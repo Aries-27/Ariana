@@ -24,13 +24,13 @@
 
 ## 💖 PIKACHU 💖
 
-> This is a open source project by the TEAM ETERNITY. After forking If you change any codes and claim That's yours then Our Team will Take Action In that case so be careful and give Credit To The original Devloper of that Bot. if you Have any Questions Then Join Our support Group To Report Your Issues.
+> This is a open source project by the ©RONEN-BOTS. After forking If you change any codes and claim That's yours then Our Team will Take Action In that case so be careful and give Credit To The original Devloper of that Bot. if you Have any Questions Then Join Our support Group To Report Your Issues.
 
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/JCCZPbPUbM1536n62zSFZi)
 
 ## 💡 License
 
-Nezuko is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/EternityBots/Nezuko/blob/main/LICENSE).
+Nezuko is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/Aries-27/Pikachu/blob/main/LICENSE).
 
 ## RAILWAY
 
@@ -43,7 +43,7 @@ Nezuko is free and open-source software licensed under the [GNU Affero General P
 ## Clone this project
 
 ```bash
-> git clone https://github.com/Eternity-Bots/Nezuko
+> git clone https://github.com/Aries-27/Pikachu
 ```
 
 ## Installation:
