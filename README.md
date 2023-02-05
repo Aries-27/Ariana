@@ -1,5 +1,5 @@
 <div align="center">
-<a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="[(https://i.ibb.co/x78n9mC/20230127-141609.jpg)](https://i.ibb.co/x78n9mC/20230127-141609.jpg)](https://i.ibb.co/x78n9mC/20230127-141609.jpg)" border="0" /></a>
+<a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="[(https://i.ibb.co/x78n9mC/20230127-141609.jpg)] border="0" /></a>
 
 # **PIKACHU : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
 
