@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://www.youtube.com/watch?v=KqgyScOlvV8"><img src="[(https://i.ibb.co/x78n9mC/20230127-141609.jpg)](https://i.ibb.co/x78n9mC/20230127-141609.jpg)](https://i.ibb.co/x78n9mC/20230127-141609.jpg)" border="0" /></a>
 
-# **NEZUKO : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
+# **PIKACHU : MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES**
 
 </p>
 <p align="center">
@@ -22,7 +22,7 @@
 
 > A simple and easy-to-use WhatsApp bot project with cool Features based on Multi-Device Baileys and written in JavaScript.
 
-## 💖 NEZUKO 💖
+## 💖 PIKACHU 💖
 
 > This is a open source project by the TEAM ETERNITY. After forking If you change any codes and claim That's yours then Our Team will Take Action In that case so be careful and give Credit To The original Devloper of that Bot. if you Have any Questions Then Join Our support Group To Report Your Issues.
 
