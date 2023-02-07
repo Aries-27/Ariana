@@ -12,7 +12,7 @@ module.exports={
     start:async(client,m,{command,prefix,text,args})=>{
 if (!text)  return m.reply(`Please provide me some text`)
 if (ggle == "none" || null)  return m.reply(`*❤️ Ask owner to give me an API key*`)
-await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${client.sender.split("@")[0]}]&msg=[${text}]`)
+await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${client.sender("@")[0]}]&msg=[${text}]`)
 .then((res) => {
     if (res.status !== 200) return void m.reply(`🔍 Error: ${res.status}`);
     let result = ``;
