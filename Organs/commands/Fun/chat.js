@@ -17,7 +17,7 @@ await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid
     if (res.status !== 200) return void m.reply(`🔍 Error: ${res.status}`);
     let result = ``;
     for (const item of res.data?.items) {
-        result += `*📒 Title* : ${item.cmt};
+        result += `*📒 Title* : ${item.cmt}`;
     }
 img = "https://i.ibb.co/26d2K4d/kindpng-209846.png"
  client.sendMessage(m.from,{image:{url:img},caption:result},{quoted:m})
