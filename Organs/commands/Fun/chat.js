@@ -5,7 +5,7 @@ module.exports={
     alias:["bot"],
     cool: 20,
     usage:`${prefa}chat [Any text or sentence]`,
-    desc:"Search result from Google.",
+    desc:"Chat with bot",
     category:"Fun",
     react:"✅",
 
@@ -17,7 +17,7 @@ await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid
     if (res.status !== 200) return void m.reply(`🔍 Error: ${res.status}`);
     let result = ``;
     for (const item of res.data?.items) {
-        result += `*📒 Title* : ${item.cnt}`;
+        result += `${item.cnt}`
     }
 img = "https://i.ibb.co/26d2K4d/kindpng-209846.png"
  client.sendMessage(m.from,{image:{url:img},caption:result},{quoted:m})
